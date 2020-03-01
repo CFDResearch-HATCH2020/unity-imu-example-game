@@ -10,8 +10,9 @@ The key functionality provided in this project is in Assets/Plugins/Android/Meta
 
 2. Open the Unity Hub app, and skip the install wizard to choose specific installation preferences. Alternatively, if you already have Unity installed, navigate to the Installs section of Unity Hub to modify your installation.
 
-3. Select Android Build support
-	 3a. Make sure to add Android SDK and NDK, as well as OpenJDK
+3. Select Android Build support  
+	 3a. Make sure to add Android SDK and NDK, as well as OpenJDK  
+	 3b. Alternatively, if you already have the Android SDK and NDK and a Java JDK, you can tell Unity to use those packages. Be careful with versioning.  
    
 4. Download or clone the Unity IMU example game from CFDRC GitHub
 
@@ -31,3 +32,11 @@ The key functionality provided in this project is in Assets/Plugins/Android/Meta
    11a. You will be prompted to specify a location to save the file. You can select any location on your computer - it won't matter for on-device debugging.
 
 12. Control a game using a sensor!
+
+## Helpful links
+
+https://www.androidauthority.com/an-introduction-to-unity3d-666066/
+
+https://docs.unity3d.com/Manual/android-sdksetup.html
+
+https://www.androidauthority.com/can-build-basic-android-game-just-7-minutes-unity-813947/
