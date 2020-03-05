@@ -4,6 +4,10 @@ This project will get you started on a very simple game driven by a MetaWear IMU
 
 The key functionality provided in this project is in Assets/Plugins/Android/MetaWearPlugin.jar. This jar file enables Unity to communicate with the MetaWear IMU sensor. 
 
+## Important notes
+
+The provided MetaWearPlugin is hard-coded to communicate with a Unity asset named "BlueCharacter". If you want to change this, you'll have to re-build the plugin.
+
 ## Instructions
 
 1. Install Unity (2019 recommended)
