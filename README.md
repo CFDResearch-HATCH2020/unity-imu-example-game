@@ -38,7 +38,7 @@ In Assets/Script/PlayerControls.cs, you'll need to edit the sensor MAC address (
 
 11. Make sure Bluetooth is turned on, and pair sensor with device
 
-12. In Unity, select Build and Run
+12. In Unity, select Build and Run  
    12a. You will be prompted to specify a location to save the file. You can select any location on your computer - it won't matter for on-device debugging.
 
 13. Control a game using a sensor!
