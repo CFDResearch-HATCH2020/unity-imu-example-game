@@ -8,6 +8,8 @@ The key functionality provided in this project is in Assets/Plugins/Android/Meta
 
 The provided MetaWearPlugin is hard-coded to communicate with a Unity asset named "BlueCharacter". If you want to change this, you'll have to re-build the plugin.
 
+The plugin exposes three functions: changePitchValue(), changeRollValue(), and changeYawValue(). You can use these in your game to access pitch, roll, and yaw angles from the sensor.
+
 ## Instructions
 
 1. Install Unity (2019 recommended)
