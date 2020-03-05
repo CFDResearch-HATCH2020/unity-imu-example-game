@@ -8,7 +8,9 @@ The key functionality provided in this project is in Assets/Plugins/Android/Meta
 
 The provided MetaWearPlugin is hard-coded to communicate with a Unity asset named "BlueCharacter". If you want to change this, you'll have to re-build the plugin.
 
-The plugin exposes three functions: changePitchValue(), changeRollValue(), and changeYawValue(). You can use these in your game to access pitch, roll, and yaw angles from the sensor.
+The plugin exposes three functions: changePitchValue(string p), changeRollValue(string r), and changeYawValue(string y). You can use these in your game to access pitch, roll, and yaw angles from the sensor. The names and arguments of these functions must exactly match what is specified in the plugin.
+
+In Assets/Script/PlayerControls.cs, you'll need to edit the sensor MAC address (line 44) to match your sensor.
 
 ## Instructions
 
@@ -28,16 +30,18 @@ The plugin exposes three functions: changePitchValue(), changeRollValue(), and c
 
 7. Enable developer options and USB debugging on Android device (https://developer.android.com/studio/debug/dev-options)
 
-8. If on Windows, make sure USB device driver installed
+8. **In the PlayerControls.cs script, change the address of the sensor. The address is printed on the back of the Metawear sensor.**
 
-9. Set Android device to allow USB debugging
+9. If on Windows, make sure USB device driver installed
 
-10. Make sure Bluetooth is turned on, and pair sensor with device
+10. Set Android device to allow USB debugging
 
-11. In Unity, select Build and Run
-   11a. You will be prompted to specify a location to save the file. You can select any location on your computer - it won't matter for on-device debugging.
+11. Make sure Bluetooth is turned on, and pair sensor with device
 
-12. Control a game using a sensor!
+12. In Unity, select Build and Run
+   12a. You will be prompted to specify a location to save the file. You can select any location on your computer - it won't matter for on-device debugging.
+
+13. Control a game using a sensor!
 
 ## Helpful links
 
